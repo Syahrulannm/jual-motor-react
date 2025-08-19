@@ -1,12 +1,12 @@
 // src/components/ProductCard.jsx
 const ProductCard = ({ product }) => {
   return (
-    <div data-aos="fade-up" data-aos-delay="100" className=" bg-teal-50 dark:bg-teal-800 rounded-lg shadow-lg  hover:shadow-orange-500/30  transition-smooth">
+    <div data-aos="fade-up" data-aos-delay="100" className=" bg-teal-50 dark:bg-slate-800 rounded-lg shadow-lg  hover:shadow-orange-500/30  transition-smooth">
       <div className="block overflow-hidden rounded-t-lg h-46">
         <img className="w-full object-cover object-center h-50 hover:scale-110 transition-smooth" src={product.image} alt={product.name} />
         <div className="hover:bg-transparent transition-smooth bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
         <a href="#!">
-          <div className="text-xs absolute top-0 right-0 bg-orange-600 px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">Ready</div>
+          <div className="text-xs absolute top-0 right-0 bg-red-600 px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">Ready</div>
         </a>
       </div>
       {/* <img src={product.image} alt={product.name} className="rounded-t-lg mb-4 w-full object-cover transition-smooth hover:scale-105" /> */}

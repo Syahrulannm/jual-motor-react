@@ -31,15 +31,15 @@ export default function Hero() {
         <div className="text-center md:text-left w-full md:w-1/2">
           <h1 id="judul" data-aos="fade-up" className="text-3xl md:text-4xl font-bold tracking-tight text-gray-900 dark:text-white mb-4">
             Produk{" "}
-            <span className="text-orange-600 dark:text-orange-500">
-              Unggulan <FontAwesomeIcon icon={faMotorcycle} />
+            <span className="text-orange-600 dark:text-orange-500 group">
+              Unggulan <FontAwesomeIcon icon={faMotorcycle} className="hover:-rotate-12 transition-smooth group-hover:translate-x-3" />
             </span>
           </h1>
           <p data-aos="fade-up" data-aos-delay="100" className="text-base sm:text-lg text-gray-700 dark:text-gray-300 max-w-xl leading-relaxed mx-auto md:mx-0">
             Dapatkan motor pilihan dengan harga terbaik. Promo terbatas!
           </p>
           <div className="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
-            <a href="#motor" data-aos="zoom-in" data-aos-delay="150" className="px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white rounded-lg shadow-md transition text-sm sm:text-base">
+            <a href="#search" data-aos="zoom-in" data-aos-delay="150" className="px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white rounded-lg shadow-md transition text-sm sm:text-base">
               <FontAwesomeIcon icon={faSearch} /> Lihat Motor
             </a>
             <button

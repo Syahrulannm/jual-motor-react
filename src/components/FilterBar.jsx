@@ -1,7 +1,7 @@
 // src/components/FilterBar.jsx
 export default function FilterBar({ searchTerm, onSearchChange, selectedBrand, onBrandChange, brands }) {
   return (
-    <div className="mb-6 flex flex-col sm:flex-row gap-4 sm:items-center">
+    <div id="search" className="mb-6 flex flex-col sm:flex-row gap-4 sm:items-center">
       {/* 🔍 Input Search */}
       <input
         type="text"
